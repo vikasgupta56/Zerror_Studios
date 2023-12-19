@@ -204,27 +204,27 @@ const Projects = () => {
                         <div className="pos-rel-full">
                             {
                                 vidNo == 0 && <video loop autoPlay muted >
-                                    <source src="/Hefty Art.mov" type="video/mp4" />
+                                    <source src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Hefty+Art.mov" type="video/mp4" />
                                 </video>
                             }
                             {
                                 vidNo == 1 && <video loop autoPlay muted >
-                                    <source src="/Sensei Hub.mov" type="video/mp4" />
+                                    <source src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Sensei+Hub.mov" type="video/mp4" />
                                 </video>
                             }
                             {
                                 vidNo == 2 && <video loop autoPlay muted >
-                                    <source src="/Khelo Esports.mov" type="video/mp4" />
+                                    <source src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Khelo+Esports.mov" type="video/mp4" />
                                 </video>
                             }
                             {
                                 vidNo == 3 && <video loop autoPlay muted >
-                                    <source src="/CareerSure.mov" type="video/mp4" />
+                                    <source src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/CareerSure.mov" type="video/mp4" />
                                 </video>
                             }
                             {
                                 vidNo == 4 && <video loop autoPlay muted >
-                                    <source src="/TravGlow.mov" type="video/mp4" />
+                                    <source src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/TravGlow.mov" type="video/mp4" />
                                 </video>
                             }
                         </div></div>
