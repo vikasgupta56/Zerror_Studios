@@ -51,7 +51,7 @@ const Homework = () => {
     })
 
   }, [])
-  const links = ["/RC Hinduja.mov","/Hefty Art.mov", "/Sensei Hub.mov", "/Khelo Esports.mov", "/IR Esports.mov","/Harshad Dhage.mov", "/TravGlow.mov" , "/HIndustan Talkies.mov", "/CareerSure.mov", "/Rayo Racing.mov","/Sensei Hub.mov"]
+  const links = ["https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/RC+Hinduja.mov","https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Hefty+Art.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Sensei+Store.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Khelo+Esports.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/IR+Esports.mov","https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Harshad+Dhage.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/TravGlow.mov" , "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/HIndustan+Talkies.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/CareerSure.mov", "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Rayo+Racing.mov","https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Sensei+Hub.mov"]
 
   return (
     <>
