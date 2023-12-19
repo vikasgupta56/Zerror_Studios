@@ -1,0 +1,36 @@
+.services-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:1480px) and (max-width:1819px) {
+    .services-container{
+        width: 80%;
+    }
+}
+@media screen and (min-width:1820px) and (max-width:1875px) {
+    .services-container{
+        width: 70%;
+    }
+}
+@media screen and (min-width:1876px) and (max-width:1900px) {
+    .services-container{
+        width: 80%;
+    }
+}
+@media screen and (min-width:680px) and (max-width:755px) {
+    .services-container{
+        width: 90%;
+    }
+}
+@media screen and (min-width:756px) and (max-width:849px) {
+    .services-container{
+        width: 80%;
+    }
+}
+@media screen and (min-width:850px) and (max-width:899px) {
+    .services-container{
+        width: 70%;
+    }
+}

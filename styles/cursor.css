@@ -1,0 +1,26 @@
+
+.outer-cursor{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    border-radius: 50%;
+    transition: all 0s ease;
+    border :1px solid var(--brand-color-dark-green);
+    pointer-events: none;
+    z-index: 6;
+    transform: translate(-50%,-50%);
+}
+.inner-cursor{
+    position: fixed;
+    z-index: 6;
+    width: 8px;
+    height: 8px;
+    background-color: var(--brand-color-dark-green);
+    pointer-events: none;
+    border-radius: 50%;
+    transition: all 0.3s ease-out;
+    transform: translate(-50%,-50%);
+}
+.cnone{
+    cursor: none;
+}

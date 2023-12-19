@@ -1,0 +1,457 @@
+.white-bg {
+    background: #f3f3f3;
+    position: relative;
+    transition: all .4s ease;
+    /* box-shadow: 0px 30px 40px 30px black/  */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    /* box-shadow: black 0px 20px 30px -10px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.we-cont {
+    margin: 0px 0px;
+    margin-bottom: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-title {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: relative;
+    top: 3.5vh;
+}
+
+.we-title svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.we-title svg text {
+    /* color: white; */
+    transition: fill .4s ease;
+    stroke: black;
+    /* font-family: 'Abril Fatface', cursive; */
+
+    position: relative;
+    bottom: -2vh;
+    font-size: 100px;
+    font-weight: 700;
+    stroke-width: 2px;
+    animation: text 3s 1, fill .4s ease 3s 1 both;
+}
+
+.we-img-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fullrel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes fill {
+    0% {
+        /* fill: none; */
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        fill: black;
+    }
+}
+
+@keyframes text {
+    0% {
+        stroke-dasharray: 0 50%;
+        /* stroke-dashoffset: 20%; */
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+
+    }
+}
+
+.we-img-cont {
+    position: absolute;
+
+    transform: scale(0);
+    transition: all .3s ease-out;
+}
+
+.zerimg {
+    width: 650px;
+    height: 250px;
+}
+
+.black-div {
+    position: absolute;
+
+    transform: scale(0);
+    width: 650px;
+    transition: all .3s ease-out;
+    mix-blend-mode: difference;
+    background: white;
+    height: 242px;
+    border-radius: 62px;
+    clip-path: polygon(6% 0%, 95% 0, 100% 100%, 0% 100%);
+
+}
+
+
+
+.black-div-phone {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* transform: translate(-50%,-50%); */
+    width: calc(100% - 20px);
+    background-color: black;
+    height: calc(100% - 30px);
+    /* position: relative; */
+    /* transform: rotateX(40deg,0deg,40deg); */
+    border-radius: 20px;
+    clip-path: polygon(5% 0%, 95% 0, 100% 100%, 0% 100%);
+
+}
+
+.zerror-about {
+    padding: 30px 120px;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    top: 70vh;
+    color: black;
+    font-weight: 600;
+    transition: all .5s ease;
+    text-align: justify;
+}
+
+.svg-cont-zer {
+    margin: 30px 0px;
+    display: none;
+}
+
+.pro-cont {
+    width: 300px;
+    height: 70px;
+    background: gray;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    /* font-weight: 600; */
+}
+
+.no-cont {
+    width: 40px;
+    background-color: aqua;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-cont svg {
+    margin: 0px 10px;
+    font-size: 30px;
+    color: red;
+}
+
+.border {
+    margin: 0px 10px;
+    width: 2px;
+    height: 70px;
+    background-color: red;
+}
+
+.no-cont {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px 5px;
+    margin-right: 20px;
+}
+
+.infopro {
+    width: 200px;
+    float: right;
+
+}
+
+@media (max-width:768px) {
+    .svg-cont-zer {
+        display: none;
+    }
+}
+
+/* #15ff5d extra green*/
+.color-switch {
+    position: absolute;
+    left: 5vh;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circle-light {
+    position: relative;
+    z-index: 1;
+    width: 1.8vw;
+    border-radius: 50%;
+    margin: 25px 0px;
+    height: 1.8vw;
+    cursor: pointer;
+}
+
+.first-circle {
+    background: black;
+    /* border: 3px solid white; */
+
+}
+
+.second-circle {
+    background: white;
+    /* border: 3px solid black; */
+
+}
+
+.green-circle {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    width: calc(1.8vw + 20px);
+    height: calc(1.8vw + 20px);
+    border: 5px solid var(--brand-color-dark-green);
+    background: var(--brand-color-dark-green);
+    border-radius: 25px;
+    transition: all .3s ease;
+}
+
+.green-light {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: greenLight 1s ease 0s 1 both;
+}
+
+.green-dark {
+    animation: greenDark 1s ease 0s 1 both;
+
+}
+
+@keyframes greenDark {
+    0% {
+        top: unset;
+        bottom: -10px;
+        height: calc(1.8vw + 20px);
+        /* background: none; */
+
+    }
+
+    50% {
+        height: calc(100% + 20px);
+        background: var(--brand-color-dark-green);
+    }
+
+    100% {
+        bottom: unset;
+        top: -10px;
+        height: calc(1.8vw + 20px);
+        /* background: none; */
+
+
+    }
+}
+
+@keyframes greenLight {
+    0% {
+        top: -10px;
+        bottom: unset;
+        height: calc(1.8vw + 20px);
+        /* background: none; */
+
+    }
+
+    50% {
+        height: calc(100% + 20px);
+        background: var(--brand-color-dark-green);
+
+    }
+
+    100% {
+        bottom: -10px;
+        top: unset;
+        height: calc(1.8vw + 20px);
+
+        /* background: none; */
+
+    }
+}
+
+@media (max-width:768px) {
+    .zerimg {
+        width: 398px;
+        height: 137px;
+    }
+
+    .black-div {
+        width: 397px;
+        height: 132px;
+        border-radius: 35px;
+    }
+
+    .we-cont {
+        height: 50vh;
+    }
+
+    .we-title svg {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .we-title {
+        height: 50vh;
+    }
+
+    .zerror-about {
+        /* top: 40vh; */
+        padding: 0px 7%;
+        position: unset;
+        padding-bottom: 5%;
+    }
+    .circle-light{
+        width: 17px;
+        height: 17px;
+    }
+    .green-circle{
+        width: 23px;
+        height: 23px;
+        bottom: -3px;
+        left: -3px;
+    }
+    .green-dark{
+        animation: greenDarkMob 1s ease 0s 1 both;
+    }
+    .green-light {
+        animation: greenLightMob 1s ease 0s 1 both;
+    }
+    @keyframes greenDarkMob {
+        0% {
+            top: unset;
+            bottom: -3px;
+            height: 23px;
+            /* background: none; */
+    
+        }
+    
+        50% {
+            height: calc(100% + 6px);
+            background: var(--brand-color-dark-green);
+        }
+    
+        100% {
+            bottom: unset;
+            top: -3px;
+            height: 23px;
+            /* background: none; */
+    
+    
+        }
+    }
+    
+    @keyframes greenLightMob {
+        0% {
+            top: -3px;
+            bottom: unset;
+            height: 23px;
+            /* background: none; */
+    
+        }
+    
+        50% {
+            height: calc(100% + 6px);
+            background: var(--brand-color-dark-green);
+    
+        }
+    
+        100% {
+            bottom: -3px;
+            top: unset;
+            height: 23px;
+    
+            /* background: none; */
+    
+        }
+    }
+}
+
+@media (max-width:550px) {
+    .zerimg {
+        width: 316px;
+        height: 113px;
+    }
+
+    .we-cont {
+        height: 40vh;
+    }
+
+    .we-title {
+        height: 40vh;
+    }
+
+
+    .black-div {
+        width: 316px;
+        height: 109px;
+        border-radius: 32px;
+    }
+}
+
+@media (max-width:450px) {
+    .zerimg {
+        width: 260px;
+        height: 100px;
+    }
+
+    .black-div {
+        width: 257px;
+        border-radius: 22px;
+        height: 97px;
+    }
+
+    .we-title {
+        top: 1vh;
+    }
+
+    .we-title svg text {
+        font-size: 150px;
+    }
+
+    .color-switch {
+        top: 41%;
+    }
+
+    .zerror-about {
+        padding: 5px 5%;
+        padding-bottom: 25px;
+        font-size: 15px;
+        line-height: 25px;
+        /* top: 37vh; */
+        /* transition: all .5s ease,background-color 1s ease; */
+    }
+}

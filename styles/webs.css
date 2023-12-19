@@ -1,0 +1,122 @@
+.webs-sticky {
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111517;
+}
+
+.webs-container {
+    background-color: var(--brand-color-black);
+}
+
+.webs-up {
+    position: relative;
+}
+
+.green-up {
+    position: absolute;
+    background-color: var(--brand-color-black);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+}
+
+.green-left {
+    width: 1%;
+    height: 100%;
+    transition: all .3s ease-out;
+    background: var(--brand-color-dark-green);
+}
+
+.green-right {
+    width: 1%;
+    transition: all .3s ease-out;
+    background: var(--brand-color-dark-green);
+    height: 100%;
+}
+
+.ser-up {
+    position: relative;
+    /* background-color: red; */
+    min-height: 100vh;
+    transition: all 1s ease;
+    /* background-color: #111517; */
+
+}
+
+.ser-inside {
+    margin: 30px 60px;
+}
+
+.ser-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ser-title p {
+    color: white;
+    opacity: .6;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.serve {
+    color: white;
+    font-weight: 900;
+    /* background-color: var(--brand-color-black); */
+}
+
+
+@media (min-width:1876px) {
+    .ser-inside {
+        margin: 30px 300px;
+    }
+}
+@media (max-width:900px) {
+    .serve{
+        font-size: 40px;
+        width: 100%;
+        line-height: 70px
+    }
+    .webs-container{
+        margin-bottom: 60px;
+    }
+    .process-title::after{
+
+        width: 25%;
+    }
+    .ser-title p{
+        margin: 10px 10px;
+        font-size: 16px;
+        /* margin-bottom: 20px; */
+    }
+    .ser-title
+    {
+        margin-bottom: 0px;
+    }
+   
+    .ser-inside{
+        margin: 0px;
+    }
+    
+    .service-p{
+        font-size: 12px;
+        height: 80%;
+        overflow-y: scroll;
+        margin: 10px 0px;
+    }
+    .service-logo{
+        font-size: 45px;
+    }
+    .service:hover .service-logo{
+width: 45px;
+height: 45px;
+font-size: 25px;
+    }
+}

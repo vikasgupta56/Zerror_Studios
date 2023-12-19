@@ -1,0 +1,134 @@
+.drag-container{
+    height: 600px;
+    overflow: hidden;
+    background: rgb(14, 12, 12);
+}
+.websites-container-drag{
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+}
+  #draggable {
+    
+    width: 400vw;
+    height: 400vw;
+    position: relative;
+    left: -150vw;
+    overflow-y: hidden;
+    border-radius: 100px;
+  }
+  
+  #drag {
+    width: 10%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgba(200, 200, 200, 0.01);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+  }
+  
+  #rotate {
+      cursor: grab;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .drag-web-wrapper{
+    margin-top: 100px;
+  }
+  .drag-web-cont{
+      margin-top: 40px;
+      height: 250px;
+      min-width: 320px;
+      border-radius:10px;
+      overflow: hidden;
+      background-color: blanchedalmond;
+      margin: 0px 30px;
+      cursor: pointer;
+      position: absolute;
+      left: calc(50% - 160px);
+      top: calc(50% - 125px);
+      }
+  .web-link-container{
+      position: relative;
+      width: 100%;
+      height: 100%;
+  }
+  .link-web{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translate(-50%,50%);
+      background: white;
+  }
+  .link-web svg{
+      font-size: 20px;
+  }
+
+.center-li{
+    width: 1px;
+    height: 1px;
+    color: white;
+}
+
+#ull{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition:  all .3s cubic-bezier(.68,-.55,.265,1.55); */
+    transition: all .25s ease;
+    border-radius: 50%;
+     height: 200vw;
+     width: 200vw;
+    position: relative;
+    left: -50%;
+    top: 10px;
+}
+.ul-web{
+    width: 1px;
+    height: 1px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+}
+
+.swipe-div{
+  position: absolute;
+  text-align: center;
+  display: block;
+  top: 400px;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+.web-name{
+  font-size: 50px;
+  color: var(--brand-color-dark-green);
+  font-weight: 500;
+}
+.swipe{
+  margin: 20px 0px;
+  font-size: 15px;
+}
+.web-img-drag{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.web-img-drag img{
+  transition: all .3s ease;
+}
+.web-img-drag img:hover{
+transform: scale(1.1);
+}

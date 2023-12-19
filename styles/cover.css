@@ -1,0 +1,19 @@
+.cover-first{
+    background-color: black;
+    z-index: 5;
+}
+.cover-second{
+    background-color: var(--brand-color-dark-green);
+    z-index: 4;
+}
+.cover-third{
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
