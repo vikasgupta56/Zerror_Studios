@@ -100,88 +100,88 @@ const Projects = () => {
         {
             name: "IR Esports",
             link: "https://www.iresports.in/",
-            imgsrc: "/IR Esports.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/IR+Esports.png"
 
         },
         {
             name: "Rotaract Club Of Hinduja College",
             link: "https://www.rchinduja.com/",
-            imgsrc: "/RCHC.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/RCHC.png"
         },
         {
             name: "Harshad Dhage",
             link: "https://www.harshaddhage.com/",
-            imgsrc: "/Harshad Dhage.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Harshad+Dhage.png"
         },
         {
             name: "Sensei store",
             link: "https://www.thesenseisstore.com/",
-            imgsrc: "/The Sensei Store.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/The+Sensei+Store.png"
         },
         {
             name: "TravGlow Trip (Editor-X Version)",
             link: "https://zerrorstudios.editorx.io/travglowtrips",
-            imgsrc: "/TravGlow Trips Editor-X Version.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/TravGlow+Trips+Editor-X+Version.png"
         },
         {
             name: "RTC Planters",
             link: "https://www.rtcplanters.com/",
-            imgsrc: "/RTC Planters.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/RTC+Planters.png"
         },
         {
             name: "SRWS",
             link: "https://www.srws.org.in/",
-            imgsrc: "/SRWS.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/SRWS.png"
         },
         {
             name: "Sunrise Builders",
             link: "https://www.sunrisebuilders.in/",
-            imgsrc: "/Sunrise Builders.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Sunrise+Builders.png"
         },
         {
             name: "Rayo Racing",
             link: "https://www.rayoracing.com/",
-            imgsrc: "/Rayo Racing.png"
+            imgsrc: "/https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Rayo+Racing.png"
         },
         {
             name: "Design Fusion",
             link: "https://www.roopalisethi.com/",
-            imgsrc: "/DesignFusion.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/DesignFusion.png"
         },
         {
             name: "Diletto Cake Shop",
             link: "https://zerrorstudios.wixsite.com/diletto",
-            imgsrc: "/Diletto.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Dilleto.png"
         },
         {
             name: "AMS Enterprise",
             link: "https://zerrorstudios.wixsite.com/ams-enterprises",
-            imgsrc: "/AMS.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/AMS.png"
         },
         {
             name: "Ajmera Indikarting",
             link: "https://www.ajmeraindikarting.com/",
-            imgsrc: "/AJIK.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/AJIK.png"
         },
         {
             name: "High Definition",
             link: "https://www.highdefinition.in/",
-            imgsrc: "/High Definition.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/High+Definition.png"
         },
         {
             name: "Indikarting",
             link: "https://www.indikarting.com/",
-            imgsrc: "/IK.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/IK.png"
         },
         {
             name: "For Future India",
             link: "https://www.forfutureindia.org/",
-            imgsrc: "/For Future India.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/For+Future+India.png"
         },
         {
             name: "PSC Bharat",
             link: "https://www.pscbharat.in/",
-            imgsrc: "/PSC Bharat.png"
+            imgsrc: "https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/PSC+Bharat.png"
         },
 
     ]

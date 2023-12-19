@@ -70,18 +70,18 @@ const Shit = () => {
                             <div className="pos-rel">
                                 <div className="simg">
 
-                                    <img src="/main1.png" className='shitimg' />
+                                    <img src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/main1.png" className='shitimg' />
 
                                 </div>
                                 <div className="simg">
 
-                                    <img src="/main2.png" className='shitimg' />
+                                    <img src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/main2.png" className='shitimg' />
 
                                 </div>
                                 <div className="simg">
 
 
-                                    <img src="/main3.png" className='shitimg' />
+                                    <img src="https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/main3.png" className='shitimg' />
 
                                 </div>
 

@@ -197,21 +197,21 @@ const GetItCode = () => {
                                 <div className='code-img-wrapper'>
                                     <div className='lap-img-cont x'>
                                         <div className='laprel'>
-                                            <Image src={pictureone} layout="fill" />
+                                            <Image src={'https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/1.png'} layout="fill" />
                                         </div>
                                     </div>
                                     <div className='lap-img-cont y'>
                                         <div className='laprel'>
-                                            <Image src={picturetwo} layout="fill" />
+                                            <Image src={'https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/2.png'} layout="fill" />
                                         </div>                                    </div>
                                     <div className='lap-img-cont z'>
                                         <div className='laprel'>
-                                            <Image src={picturethree} layout="fill" />
+                                            <Image src={'https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/3.png'} layout="fill" />
                                         </div>                                    </div>
                                     {/* <Image src={pictureone} layout="fill" /> */}
                                     <div className='lap-img-cont '>
                                         <div className='laprel'>
-                                            <Image src={picturefour} layout="fill" />
+                                            <Image src={'https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/4.png'} layout="fill" />
                                         </div>                                    </div>
                                 </div>
                             </div>

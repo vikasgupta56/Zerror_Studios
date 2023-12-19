@@ -94,7 +94,7 @@ const Zerrorian = () => {
 
                     <div className='we-img-cont' >
                         <div className='pos-rel zerimg'>
-                            <Image src={tilt} layout="fill" />
+                            <Image src={'https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/tilted-phone-new.png'} layout="fill" />
 
                         </div>
 

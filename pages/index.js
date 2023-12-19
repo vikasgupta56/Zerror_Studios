@@ -4,20 +4,23 @@ import { useEffect, useState } from 'react';
 import "aos/dist/aos.css";
 import Head from 'next/head';
 import Router from 'next/router';
+import Landing from '../components/home/Landing'
+import Responsiveness from '../components/home/Responsiveness'
+import About from '../components/home/About';
+import Zerrorian from '../components/home/Zerrorian';
+import GetItCode from '../components/home/GetItCode';
+import Process from '../components/home/process/Process';
+import Navbar from '../components/Navbar';
+import Homework from '../components/home/Homework'
+import Shit from '../components/home/Shit';
+import Work from '../components/home/Work';
+import Footer from '../components/home/Footer'
+import Services from '../components/home/services/Services';
+import Cursor from '../components/contact/cursor/ContactCursor';
+
 
 export default function Home() {
-  const [touch, setTouch] = useState(true);
-  useEffect(() => {
-
-    AOS.init({});
-    var supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
-    if (supportsTouch) {
-      Router.push('/home')
-    }
-    else {
-      setTouch(false);
-    }
-  }, [])
+  
 
 
   return (
@@ -57,9 +60,21 @@ export default function Home() {
         <meta name="twitter:description" content="Hello there. Zerror Studios is a design and development studio based in India. Got a minute? Click on
           those blue words up there to get started." />
       </Head>
-      {!touch &&
-        <Difference />
-      }
+      <div className='cnone'>
+      <Navbar page={"home"} />
+      <Cursor />
+      <Landing />
+      <Shit />
+      <About />
+      <Responsiveness />
+      <Services />
+      <GetItCode />
+      <Homework />
+      <Process />
+      <Work />
+      <Zerrorian />
+      <Footer />
+      </div>
     </>
 
 

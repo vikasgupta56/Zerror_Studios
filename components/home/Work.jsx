@@ -8,17 +8,17 @@ const Work = () => {
         {
             name: "Hefty Art",
             link: "https://hefty-arts.vercel.app/",
-            imgsrc:"/Hefty Art.png"
+            imgsrc:"https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Hefty+Art.png"
         },
         {
             name: "Hindustan Talkies",
             link: "https://hindustan-talkies.vercel.app/",
-            imgsrc:"/Hindustan Talkies.png"
+            imgsrc:"https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Hindustan+Talkies.png"
         },
         {
             name: "Khelo Esports",
             link: "https://khelo-esports.vercel.app/",
-            imgsrc:"/Khelo Esports.png"
+            imgsrc:"https://zerrorstudios.s3.ap-south-1.amazonaws.com/public/Khelo+Esports.png"
         },
     ]
   
